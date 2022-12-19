@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./donation.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>User Record List </h1>
+        <div class="form">
+            <label>Username</label><br>
+            <input type="text" placeholder="Enter Your Username" id="inputId" maxlength="10" autocomplete="on" ><br>
+            <span id="textmsg"></span>
+            <label>Email address</label><br>
+            <input type="text" placeholder="Enter your email" id="emailId"><br>
+            <label>Select your blood group</label><br>
+            <select id="SelectId">
+                <option>A+</option>
+                <option>A</option>
+                <option>B+</option>
+                <option>B</option>
+                <option>C</option>
+                <option>C+</option>
+            </select><br>
+            <label>Enter your address</label><br>
+            <textarea  rows="3" id="textareaId" ></textarea><br>
+            <label>Enter your phone number</label><br>
+            <input type="text" id="phoneId"><br>
+            <label>Any other detail regarding you medical health</label><br>
+            <textarea rows="3" id="textareaId"></textarea>
+            <button onclick="RegEx()">Submit</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="donation.js"></script>
+</body>
+</html>
