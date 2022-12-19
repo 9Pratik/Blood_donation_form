@@ -4,7 +4,7 @@ var selectid=document.getElementById('SelectId').value;
 var emailid=document.getElementById('emailId').value;
 var phone=document.getElementById('phoneId').value;
 
-var numreg=/^(\+\d{1,3}[- ]?)?\d{10}$/;       
+var numreg=/^\d{10}$/;        
 var regEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g; 
 
 function RegEx(){          
